@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Wall
+  - Base_Block
+  - OwnedStructure
+  - Trialist
+  - Combatant
+  - Worker
+  - Building
+  - Item
+  - Base_Floor
+  - Owned_Floor
+  - Gate
+  - Portal
+  - Fog
+  - Research
+  - Technology
+  - Skill
+  - Spell
+  - Ability
+  - Corpse
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Floor
+  - Water
+  - UI
+  - Block
+  - Building
+  - Characters
+  - Quads
+  - Terrain
+  - Magic
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
