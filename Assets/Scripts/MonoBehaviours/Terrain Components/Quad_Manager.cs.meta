@@ -5,6 +5,10 @@ MonoImporter:
   serializedVersion: 2
   defaultReferences:
   - blockPrefab: {fileID: 4610872904307189914, guid: 2e9da51b94bed92438bf0ea4e02d57ed, type: 3}
+  - northQuad: {fileID: 2153405068045762010, guid: c54d5d92740a4bb4387a64a2e14f7858, type: 3}
+  - southQuad: {fileID: 2153405068045762010, guid: c54d5d92740a4bb4387a64a2e14f7858, type: 3}
+  - eastQuad: {fileID: 2153405068045762010, guid: c54d5d92740a4bb4387a64a2e14f7858, type: 3}
+  - westQuad: {fileID: 2153405068045762010, guid: c54d5d92740a4bb4387a64a2e14f7858, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
