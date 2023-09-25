@@ -10,6 +10,6 @@ public class Scriptable_Stats : ScriptableObject
     public float maxStamina;
     public float speed;
     public float attackPower;
-    public float attackSpeed;
+    public float attackDelay;
     public float defense;
 }

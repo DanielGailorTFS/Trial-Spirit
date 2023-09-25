@@ -17,5 +17,5 @@ MonoBehaviour:
   maxStamina: 100
   speed: 5
   attackPower: 10
-  attackSpeed: 4
+  attackDelay: 1.3
   defense: 0

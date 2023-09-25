@@ -26,6 +26,7 @@ public class Spirit_Controller : MonoBehaviour
 
 
 
+
     private void Awake()
     {
         cam = Camera.main;
@@ -115,8 +116,15 @@ public class Spirit_Controller : MonoBehaviour
                     Debug.Log(targetInteractable + " Selected");
                     if (selectedCharacter != null)
                     {
-                        selectedCharacter.GetComponent<Base_AI>().InteractWith(targetInteractable, hit.point);
-                    }
+                        if (selectedCharacter.GetComponent<Combatant_Ai>() != null)
+                        {
+                            selectedCharacter.GetComponent<Combatant_Ai>().InteractWith(targetInteractable, hit.point);
+                        }
+                        else if (selectedCharacter.GetComponent<Worker_Ai>() != null)
+                        {
+                            selectedCharacter.GetComponent<Worker_Ai>().InteractWith(targetInteractable, hit.point);
+                        }
+                }
                 }
                 else
                 {
@@ -124,5 +132,4 @@ public class Spirit_Controller : MonoBehaviour
                 }
             }
     }
-
 }

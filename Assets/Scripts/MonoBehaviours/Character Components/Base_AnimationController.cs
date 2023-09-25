@@ -25,8 +25,6 @@ public class Base_AnimationController : MonoBehaviour
         anim.SetFloat("sideways", rotationSpeed);
     }
 
-    public void AnimDash() { anim.SetTrigger("Dash"); }
-
     public void AnimDead() { anim.SetTrigger("Dead");  }
 
     public void AnimAttack() { anim.SetTrigger("Attack"); }
@@ -39,8 +37,8 @@ public class Base_AnimationController : MonoBehaviour
 
     public void AnimReact()
     {
-        if (reactionLevel == 1) { anim.SetTrigger("SmallReact"); }
-        else if (reactionLevel == 2) { anim.SetTrigger("BigReact"); }
+        if (reactionLevel == 1) { anim.SetTrigger("smallReact"); }
+        else if (reactionLevel == 2) { anim.SetTrigger("largeReact"); }
         else
         {
             Debug.Log("Reaction Level not set");
@@ -55,10 +53,10 @@ public class Base_AnimationController : MonoBehaviour
 
     public void ResetAllTriggers()
     {
-        anim.ResetTrigger("Dash");
+        anim.ResetTrigger("Attack");
         anim.ResetTrigger("Dead");
-        anim.ResetTrigger("SmallReact");
-        anim.ResetTrigger("BigReact");
+        anim.ResetTrigger("smallReact");
+        anim.ResetTrigger("largeReact");
         anim.ResetTrigger("Summon");
         reactionLevel = 0;
     }
